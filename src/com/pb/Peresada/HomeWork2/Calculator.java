@@ -20,19 +20,19 @@ public class Calculator {
 
         switch (z) {
             case "+":
-                System.out.println(x + y);
+                System.out.println( "Ответ:" + (x + y));
                 break;
             case "*":
-                System.out.println(x * y);
+                System.out.println("Ответ:" + (x * y));
                 break;
             case "-":
-                System.out.println(x - y);
+                System.out.println("Ответ:" +  (x - y));
                 break;
             case "/":
                 if (y == 0) {
                     System.out.print("Нельзя делить на 0!");
                 } else {
-                    System.out.println(x / y);
+                    System.out.println("Ответ:" + (x / y));
                 }
                 break;
         }
